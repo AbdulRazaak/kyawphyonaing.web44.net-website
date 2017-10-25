@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <HEAD>
+        <TITLE>
+            
+        </TITLE>
+            
+            <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+            <link rel="stylesheet" type="text/css" href="css/style.css">
+            <link rel="stylesheet" type="text/css" href="css/animate.css">
+            <link href='http://mywebfont.appspot.com/css?font=zawgyi' rel='stylesheet' type='text/css'>
+            <script src="js/jquery-3.1.1.min.js"></script>
+            <script src="js/bootstrap.js"></script>
+            <script src="js/script.js"></script>
+			
+    </HEAD>
+    <BODY>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-demo" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button> 
+                        <a class="navbar-brand" href="#">KPN</a>    
+                    
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-demo">
+                    <ul class="nav navbar-nav">
+                        <li class="animated bounce"><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tutorial<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="#">Embedded</a>
+                                <li><a href="#">Web</a></li>
+                              </ul>
+                        </li>
+                        <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="#">Educational</a></li>
+                                <li><a href="#">Economical</a></li>
+                                <li><a href="#">Web</a></li>  
+                              </ul>
+                        </li>   
+                    </ul>
+                
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    </div>    
+            </div>
+        </nav>
+                <div class="container">
+                
+                
+                <div class="jumbotron">
+                    <h1 class="zawgyi" id="Typing"></h1>
+                    <script type="text/javascript">
+		              var Text = "မဂၤလာပါ……";
+		              var Textarray = Text.split('');
+		              var loopTime;    
+    		                
+                          function looper(){
+    			             if (Textarray.length > 0){
+        		              document.getElementById("Typing").innerHTML+= Textarray.shift();
+        		              }else{
+            		              clearTimeout(loopTime);
+                            }
+    			                 loopTime = setTimeout("looper()",200);
+			                 };
+                           
+                                looper();
+        
+	               </script>
+                    <p class="zawgyi" id="typing">ကၽြန္ေတာ့္ site ကို လာေရာက္လည္ပတ္တဲ့အတြက္ အထူးေက်းဇူးတင္ပါတယ္။</p>
+                </div>
+                <p class="zawgyi advert">ပထမဦးဆံုး ဒီsiteကုိ တည္ေထာင္ရတဲ့ ရည္ရြယ္ခ်က္ကိုေျပာျပပါ့မယ္။ ျမန္မာနိုင္ငံမွာရွိတဲ့ ကၽြန္ေတာ့္လို Self-studyလုပ္ျပီး ေလ့လာေနၾကတဲ့သူမ်ားအတြက္ တစ္ေထာင့္တစ္ေနရာမွ ကိုယ္သိသေလာက္အတတ္ပညာနဲ႔ ကူညီခ်င္တဲ့ရည္ရြယ္ခ်က္က အဓိကအားျဖင့္ပါပါတယ္။ ဒီ siteမွာ Embeddedတို႔ Webတို႔နဲ႔ဆိုင္တဲ့ tutorial videosမ်ား၊ Booksမ်ား၊ ေလ့လာနိုင္တဲ့ linksမ်ားကို shareေပးသြားမွာျဖစ္ပါတယ္။ တစ္ေယာက္တည္းလုပ္ရေသာေၾကာင့္ အသစ္မ်ား မၾကာခဏမတင္ေပးနုိင္တာကို နားလည္ေပးေစလိုပါတယ္။ အတတ္နိုင္ဆံုးေတာ့ ၾကိဳးစားျပီးတင္ေပးသြားပါမယ္။<br><br><br></p>
+                    
+                <div class="row row1">
+                    <div class="col-md-3"><a href="https://www.arduino.cc/" target="_blank"><img src="images/arduino_official_Logo.png" alt="Arduino"></a></div>
+                    <div class="col-md-3"><a href="http://www.microchip.com/" target="_blank"><img src="images/arduino_official_Logo1.png" alt="Arduino"></a></div>
+                    <div class="col-md-3"><a href="https://www.w3schools.com/html/default.asp" target="_blank"><img src="images/HTML.png" alt="Arduino"></a></div>
+                    <div class="col-md-3"><a href="https://www.w3schools.com/css/" target="_blank"><img src="images/CSS.png" alt="Arduino"></a></div>
+                </div>
+                <div class="row row1">
+                    <div class="col-md-3"><a href="https://jquery.com/" target="_blank"><img src="images/jQuery-logo.png" alt="Arduino"></a></div>
+                    <div class="col-md-3"><a href="http://getbootstrap.com/" target="_blank"><img src="images/Bootstrap_Logo.png" alt="Arduino"></a></div>
+                    <div class="col-md-3"><a href="https://www.mysql.com/" target="_blank"><img src="images/MySQL_Logo.png" alt="Arduino"></a></div>
+                    <div class="col-md-3"><a href="http://www.phpmyanmar.com/" target="_blank"><img src="images/PHP_Logo.png" alt="Arduino"></a></div>
+                </div>    
+                </div> 
+        <footer>
+            <div class="site-footer">
+                <div class="container">
+                <p class="copyright">Copyright &copy; 2017 All Rights Reserved</p>
+                
+                
+                </div>
+            
+            
+            </div>
+        
+        </footer>
+        
+    </BODY>        
+
+
+
+
+
+
+
+</html>
