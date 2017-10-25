@@ -1,0 +1,120 @@
+.nav li:hover{
+    background-color: #2c191e;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.color{
+    background-color: blueviolet;
+    border: 1px;
+    color: aliceblue;
+}
+
+.zawgyi {
+            font-family:Zawgyi-One;
+        }
+
+body{
+    padding-top: 70px;
+}
+
+.jumbotron{
+    color: #3b272c;
+    background: #dedede;
+}
+
+.navbar-inverse{
+    background: #3b272c;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+.dropdown-menu{
+        background:#3b272c;
+}
+
+.nav li:visited{
+        background: #2c191e;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.dropdown-menu li a{
+        background:#3b272c;
+        color: aliceblue;
+}
+
+.dropdown-menu li a:hover{
+        background:#2c191e;
+        color: aliceblue;
+        border-bottom-left-radius: 25px;
+        border-top-right-radius: 25px;
+}
+
+.name{
+    font-size: 23px;
+    color: #3b272c;
+    align-content: center;
+    margin: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 40%;
+    border-radius: 20px;
+}
+
+.role{
+    font-size: 18px;
+    color: #3b272c;
+    border-radius: 20px;
+    margin: 10px;
+    width: 47%;
+}
+
+ .img-circle{
+     border: dotted;
+     padding: 5px;
+}
+.img-circle:hover{
+     border: dotted;
+    box-shadow: 10px 10px 100px 10px;
+    
+}
+
+.zawgyi{
+    line-height: 2;
+}
+
+.site-footer{
+    background-color: #3b272c;
+    color: aliceblue;
+    padding-top: 150px;
+    margin-top: 40px;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.round {
+    
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.round:hover {
+    transform: rotate(360deg);
+   -webkit-transform: rotate(360deg);
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.row1{
+    margin-bottom: 40px;
+}
+
